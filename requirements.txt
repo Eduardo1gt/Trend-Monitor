@@ -1,0 +1,25 @@
+
+# Interface visual
+streamlit==1.32.0
+ 
+# Google Trends
+pytrends==4.9.2
+ 
+# Banco de dados
+# (SQLite já vem com Python — sem instalação extra)
+ 
+# Análise de dados
+pandas==2.2.1
+numpy==1.26.4
+ 
+# Gráficos
+plotly==5.20.0
+ 
+# Agendamento automático de tarefas
+apscheduler==3.10.4
+ 
+# Variáveis de ambiente (.env)
+python-dotenv==1.0.1
+ 
+# Logging com cores no terminal (opcional, mas útil)
+colorlog==6.8.2

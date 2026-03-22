@@ -1,0 +1,1677 @@
+[2026-03-14 18:11:32] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:11:32] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 18:11:32] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:11:32] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-14 18:11:32] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-14 18:11:32] INFO     __main__ — Sistema pronto.
+[2026-03-14 18:15:01] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:15:01] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:15:01] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 18:15:01] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 18:15:01] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:15:01] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:15:02] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-14 18:15:02] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-14 18:15:02] INFO     __main__ — Sistema pronto.
+[2026-03-14 18:15:02] INFO     __main__ — Sistema pronto.
+[2026-03-14 18:15:08] INFO     database.database_manager — Hashtag adicionada: #gaming
+[2026-03-14 18:15:24] INFO     database.database_manager — Hashtag removida: #gaming
+[2026-03-14 18:15:26] INFO     database.database_manager — Hashtag adicionada: #gaming
+[2026-03-14 18:17:04] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:17:04] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:17:04] INFO     scheduler.job_runner —    Início: 2026-03-14 18:17:04
+[2026-03-14 18:17:04] INFO     scheduler.job_runner —    Termos para coletar: 1
+[2026-03-14 18:17:04] INFO     scraper.trends_scraper — Coletando 1/1: 'gaming'
+[2026-03-14 18:17:04] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:17:05] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:17:05] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:17:05] INFO     scraper.trends_scraper — Coleta concluída: 1 termos processados.
+[2026-03-14 18:17:05] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:17:05
+[2026-03-14 18:17:05] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 92 | fonte: simulated)
+[2026-03-14 18:17:05] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:17:05] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:17:05
+[2026-03-14 18:17:05] INFO     scheduler.job_runner —    Resultado: 1 salvos | 0 falhas | 0 virais
+[2026-03-14 18:17:05] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:17:30] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:17:30] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:17:30] INFO     scheduler.job_runner —    Início: 2026-03-14 18:17:30
+[2026-03-14 18:17:30] INFO     scheduler.job_runner —    Termos para coletar: 1
+[2026-03-14 18:17:30] INFO     scraper.trends_scraper — Coletando 1/1: 'gaming'
+[2026-03-14 18:17:30] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:17:31] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:17:31] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:17:31] INFO     scraper.trends_scraper — Coleta concluída: 1 termos processados.
+[2026-03-14 18:17:31] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:17:31
+[2026-03-14 18:17:31] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 70 | fonte: simulated)
+[2026-03-14 18:17:31] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:17:31] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:17:31
+[2026-03-14 18:17:31] INFO     scheduler.job_runner —    Resultado: 1 salvos | 0 falhas | 0 virais
+[2026-03-14 18:17:31] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:17:40] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:17:40] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:17:40] INFO     scheduler.job_runner —    Início: 2026-03-14 18:17:40
+[2026-03-14 18:17:40] INFO     scheduler.job_runner —    Termos para coletar: 1
+[2026-03-14 18:17:40] INFO     scraper.trends_scraper — Coletando 1/1: 'gaming'
+[2026-03-14 18:17:40] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:17:41] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:17:41] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:17:41] INFO     scraper.trends_scraper — Coleta concluída: 1 termos processados.
+[2026-03-14 18:17:41] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:17:41
+[2026-03-14 18:17:41] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 92 | fonte: simulated)
+[2026-03-14 18:17:41] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:17:41] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:17:41
+[2026-03-14 18:17:41] INFO     scheduler.job_runner —    Resultado: 1 salvos | 0 falhas | 0 virais
+[2026-03-14 18:17:41] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:23:53] INFO     database.database_manager — Hashtag adicionada: #wutheringwaves
+[2026-03-14 18:24:02] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:24:02] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:24:02] INFO     scheduler.job_runner —    Início: 2026-03-14 18:24:02
+[2026-03-14 18:24:02] INFO     scheduler.job_runner —    Termos para coletar: 2
+[2026-03-14 18:24:02] INFO     scraper.trends_scraper — Coletando 1/2: 'wutheringwaves'
+[2026-03-14 18:24:02] INFO     scraper.trends_scraper — Coletando tendência para 'wutheringwaves' (geo='mundial')
+[2026-03-14 18:24:03] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'wutheringwaves': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:24:03] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'wutheringwaves'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:24:07] INFO     scraper.trends_scraper — Coletando 2/2: 'gaming'
+[2026-03-14 18:24:07] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:24:08] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:24:08] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:24:08] INFO     scraper.trends_scraper — Coleta concluída: 2 termos processados.
+[2026-03-14 18:24:08] INFO     database.database_manager — Stats salvas para #wutheringwaves em 2026-03-14 18:24:03
+[2026-03-14 18:24:08] INFO     scheduler.job_runner —    ✓ #wutheringwaves salvo (índice: 59 | fonte: simulated)
+[2026-03-14 18:24:08] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:24:08
+[2026-03-14 18:24:08] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 100 | fonte: simulated)
+[2026-03-14 18:24:08] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:24:08] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:24:08
+[2026-03-14 18:24:08] INFO     scheduler.job_runner —    Resultado: 2 salvos | 0 falhas | 0 virais
+[2026-03-14 18:24:08] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:24:19] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:24:19] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:24:19] INFO     scheduler.job_runner —    Início: 2026-03-14 18:24:19
+[2026-03-14 18:24:19] INFO     scheduler.job_runner —    Termos para coletar: 2
+[2026-03-14 18:24:19] INFO     scraper.trends_scraper — Coletando 1/2: 'wutheringwaves'
+[2026-03-14 18:24:19] INFO     scraper.trends_scraper — Coletando tendência para 'wutheringwaves' (geo='mundial')
+[2026-03-14 18:24:20] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'wutheringwaves': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:24:20] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'wutheringwaves'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:24:24] INFO     scraper.trends_scraper — Coletando 2/2: 'gaming'
+[2026-03-14 18:24:24] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:24:25] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:24:25] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:24:25] INFO     scraper.trends_scraper — Coleta concluída: 2 termos processados.
+[2026-03-14 18:24:25] INFO     database.database_manager — Stats salvas para #wutheringwaves em 2026-03-14 18:24:20
+[2026-03-14 18:24:25] INFO     scheduler.job_runner —    ✓ #wutheringwaves salvo (índice: 60 | fonte: simulated)
+[2026-03-14 18:24:25] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:24:25
+[2026-03-14 18:24:25] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 83 | fonte: simulated)
+[2026-03-14 18:24:25] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:24:25] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:24:25
+[2026-03-14 18:24:25] INFO     scheduler.job_runner —    Resultado: 2 salvos | 0 falhas | 0 virais
+[2026-03-14 18:24:25] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:53:57] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:53:57] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 18:53:57] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:53:57] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-14 18:53:57] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-14 18:53:57] INFO     __main__ — Sistema pronto.
+[2026-03-14 18:55:06] INFO     database.database_manager — Hashtag removida: #wutheringwaves
+[2026-03-14 18:55:07] INFO     database.database_manager — Hashtag removida: #gaming
+[2026-03-14 18:55:11] INFO     database.database_manager — Hashtag adicionada: #gaming
+[2026-03-14 18:55:31] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:55:31] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 18:55:31] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 18:55:31] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-14 18:55:31] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-14 18:55:31] INFO     __main__ — Sistema pronto.
+[2026-03-14 18:55:34] INFO     database.database_manager — Hashtag removida: #gaming
+[2026-03-14 18:55:35] INFO     database.database_manager — Hashtag adicionada: #gaming
+[2026-03-14 18:56:09] INFO     database.database_manager — Hashtag adicionada: #genshinimpact
+[2026-03-14 18:56:44] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:56:44] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:56:44] INFO     scheduler.job_runner —    Início: 2026-03-14 18:56:44
+[2026-03-14 18:56:44] INFO     scheduler.job_runner —    Termos para coletar: 2
+[2026-03-14 18:56:44] INFO     scraper.trends_scraper — Coletando 1/2: 'genshinimpact'
+[2026-03-14 18:56:44] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 18:56:45] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:56:45] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:56:48] INFO     scraper.trends_scraper — Coletando 2/2: 'gaming'
+[2026-03-14 18:56:48] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:56:48] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:56:48] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:56:48] INFO     scraper.trends_scraper — Coleta concluída: 2 termos processados.
+[2026-03-14 18:56:48] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 18:56:45
+[2026-03-14 18:56:48] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 73 | fonte: simulated)
+[2026-03-14 18:56:48] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:56:48
+[2026-03-14 18:56:48] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 71 | fonte: simulated)
+[2026-03-14 18:56:48] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:56:48] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:56:48
+[2026-03-14 18:56:48] INFO     scheduler.job_runner —    Resultado: 2 salvos | 0 falhas | 0 virais
+[2026-03-14 18:56:48] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:56:54] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:56:54] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:56:54] INFO     scheduler.job_runner —    Início: 2026-03-14 18:56:54
+[2026-03-14 18:56:54] INFO     scheduler.job_runner —    Termos para coletar: 2
+[2026-03-14 18:56:54] INFO     scraper.trends_scraper — Coletando 1/2: 'genshinimpact'
+[2026-03-14 18:56:54] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 18:56:55] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:56:55] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:56:59] INFO     scraper.trends_scraper — Coletando 2/2: 'gaming'
+[2026-03-14 18:56:59] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:57:00] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:57:00] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:57:00] INFO     scraper.trends_scraper — Coleta concluída: 2 termos processados.
+[2026-03-14 18:57:00] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 18:56:55
+[2026-03-14 18:57:00] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 81 | fonte: simulated)
+[2026-03-14 18:57:00] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:57:00
+[2026-03-14 18:57:00] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 96 | fonte: simulated)
+[2026-03-14 18:57:00] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:57:00] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:57:00
+[2026-03-14 18:57:00] INFO     scheduler.job_runner —    Resultado: 2 salvos | 0 falhas | 0 virais
+[2026-03-14 18:57:00] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:57:34] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:57:34] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 18:57:34] INFO     scheduler.job_runner —    Início: 2026-03-14 18:57:34
+[2026-03-14 18:57:34] INFO     scheduler.job_runner —    Termos para coletar: 2
+[2026-03-14 18:57:34] INFO     scraper.trends_scraper — Coletando 1/2: 'genshinimpact'
+[2026-03-14 18:57:34] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 18:57:34] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:57:34] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:57:38] INFO     scraper.trends_scraper — Coletando 2/2: 'gaming'
+[2026-03-14 18:57:38] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 18:57:39] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 18:57:39] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 18:57:39] INFO     scraper.trends_scraper — Coleta concluída: 2 termos processados.
+[2026-03-14 18:57:39] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 18:57:34
+[2026-03-14 18:57:39] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 92 | fonte: simulated)
+[2026-03-14 18:57:39] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 18:57:39
+[2026-03-14 18:57:39] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 80 | fonte: simulated)
+[2026-03-14 18:57:39] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 18:57:39] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 18:57:39
+[2026-03-14 18:57:39] INFO     scheduler.job_runner —    Resultado: 2 salvos | 0 falhas | 0 virais
+[2026-03-14 18:57:39] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 18:58:52] INFO     ui.dashboard — Coleta id=9 de 'gaming' deletada.
+[2026-03-14 18:58:55] INFO     ui.dashboard — Coleta id=8 de 'genshinimpact' deletada.
+[2026-03-14 19:11:05] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 19:11:05] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 19:11:05] INFO     scheduler.job_runner —    Início: 2026-03-14 19:11:05
+[2026-03-14 19:11:05] INFO     scheduler.job_runner —    Termos para coletar: 2
+[2026-03-14 19:11:05] INFO     scraper.trends_scraper — Coletando 1/2: 'genshinimpact'
+[2026-03-14 19:11:05] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 19:11:06] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:11:06] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:11:09] INFO     scraper.trends_scraper — Coletando 2/2: 'gaming'
+[2026-03-14 19:11:09] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 19:11:11] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:11:11] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:11:11] INFO     scraper.trends_scraper — Coleta concluída: 2 termos processados.
+[2026-03-14 19:11:11] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 19:11:06
+[2026-03-14 19:11:11] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 65 | fonte: simulated)
+[2026-03-14 19:11:11] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 19:11:11
+[2026-03-14 19:11:11] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 94 | fonte: simulated)
+[2026-03-14 19:11:11] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 19:11:11] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 19:11:11
+[2026-03-14 19:11:11] INFO     scheduler.job_runner —    Resultado: 2 salvos | 0 falhas | 0 virais
+[2026-03-14 19:11:11] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 19:11:32] INFO     ui.dashboard — Coleta id=13 de 'gaming' deletada.
+[2026-03-14 19:50:18] INFO     database.database_manager — Hashtag adicionada: #leagueoflegends
+[2026-03-14 19:50:21] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 19:50:21] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 19:50:21] INFO     scheduler.job_runner —    Início: 2026-03-14 19:50:21
+[2026-03-14 19:50:21] INFO     scheduler.job_runner —    Termos para coletar: 3
+[2026-03-14 19:50:21] INFO     scraper.trends_scraper — Coletando 1/3: 'leagueoflegends'
+[2026-03-14 19:50:21] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 19:50:22] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:50:22] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:50:26] INFO     scraper.trends_scraper — Coletando 2/3: 'genshinimpact'
+[2026-03-14 19:50:26] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 19:50:27] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:50:27] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:50:31] INFO     scraper.trends_scraper — Coletando 3/3: 'gaming'
+[2026-03-14 19:50:31] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 19:50:32] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:50:32] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:50:32] INFO     scraper.trends_scraper — Coleta concluída: 3 termos processados.
+[2026-03-14 19:50:32] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 19:50:22
+[2026-03-14 19:50:32] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 46 | fonte: simulated)
+[2026-03-14 19:50:32] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 19:50:27
+[2026-03-14 19:50:32] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 76 | fonte: simulated)
+[2026-03-14 19:50:32] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 19:50:32
+[2026-03-14 19:50:32] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 97 | fonte: simulated)
+[2026-03-14 19:50:32] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 19:50:32] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 19:50:32
+[2026-03-14 19:50:32] INFO     scheduler.job_runner —    Resultado: 3 salvos | 0 falhas | 0 virais
+[2026-03-14 19:50:32] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 19:50:42] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 19:50:42] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 19:50:42] INFO     scheduler.job_runner —    Início: 2026-03-14 19:50:42
+[2026-03-14 19:50:42] INFO     scheduler.job_runner —    Termos para coletar: 3
+[2026-03-14 19:50:42] INFO     scraper.trends_scraper — Coletando 1/3: 'leagueoflegends'
+[2026-03-14 19:50:42] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 19:50:43] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:50:43] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:50:47] INFO     scraper.trends_scraper — Coletando 2/3: 'genshinimpact'
+[2026-03-14 19:50:47] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 19:50:47] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:50:47] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:50:51] INFO     scraper.trends_scraper — Coletando 3/3: 'gaming'
+[2026-03-14 19:50:51] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 19:50:52] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:50:52] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:50:52] INFO     scraper.trends_scraper — Coleta concluída: 3 termos processados.
+[2026-03-14 19:50:52] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 19:50:43
+[2026-03-14 19:50:52] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 63 | fonte: simulated)
+[2026-03-14 19:50:52] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 19:50:47
+[2026-03-14 19:50:52] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 82 | fonte: simulated)
+[2026-03-14 19:50:52] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 19:50:52
+[2026-03-14 19:50:52] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 62 | fonte: simulated)
+[2026-03-14 19:50:52] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 19:50:52] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 19:50:52
+[2026-03-14 19:50:52] INFO     scheduler.job_runner —    Resultado: 3 salvos | 0 falhas | 0 virais
+[2026-03-14 19:50:52] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 19:51:41] INFO     ui.dashboard — Coleta id=16 de 'leagueoflegends' deletada.
+[2026-03-14 19:52:58] INFO     ui.dashboard — Coleta id=21 de 'gaming' deletada.
+[2026-03-14 19:53:06] INFO     ui.dashboard — Coleta id=14 de 'genshinimpact' deletada.
+[2026-03-14 19:53:08] INFO     ui.dashboard — Coleta id=17 de 'genshinimpact' deletada.
+[2026-03-14 19:53:12] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 19:53:12] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 19:53:12] INFO     scheduler.job_runner —    Início: 2026-03-14 19:53:12
+[2026-03-14 19:53:12] INFO     scheduler.job_runner —    Termos para coletar: 3
+[2026-03-14 19:53:12] INFO     scraper.trends_scraper — Coletando 1/3: 'leagueoflegends'
+[2026-03-14 19:53:12] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 19:53:14] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:53:14] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:53:17] INFO     scraper.trends_scraper — Coletando 2/3: 'genshinimpact'
+[2026-03-14 19:53:17] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 19:53:18] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:53:18] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:53:21] INFO     scraper.trends_scraper — Coletando 3/3: 'gaming'
+[2026-03-14 19:53:21] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 19:53:22] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 19:53:22] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 19:53:22] INFO     scraper.trends_scraper — Coleta concluída: 3 termos processados.
+[2026-03-14 19:53:22] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 19:53:14
+[2026-03-14 19:53:22] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 78 | fonte: simulated)
+[2026-03-14 19:53:22] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 19:53:18
+[2026-03-14 19:53:22] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 66 | fonte: simulated)
+[2026-03-14 19:53:22] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 19:53:22
+[2026-03-14 19:53:22] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 90 | fonte: simulated)
+[2026-03-14 19:53:22] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 19:53:22] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 19:53:22
+[2026-03-14 19:53:22] INFO     scheduler.job_runner —    Resultado: 3 salvos | 0 falhas | 0 virais
+[2026-03-14 19:53:22] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:19:08] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:19:08] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 20:19:08] INFO     scheduler.job_runner —    Início: 2026-03-14 20:19:08
+[2026-03-14 20:19:08] INFO     scheduler.job_runner —    Termos para coletar: 3
+[2026-03-14 20:19:08] INFO     scraper.trends_scraper — Coletando 1/3: 'leagueoflegends'
+[2026-03-14 20:19:08] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 20:19:08] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:19:08] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:19:12] INFO     scraper.trends_scraper — Coletando 2/3: 'genshinimpact'
+[2026-03-14 20:19:12] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:19:13] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:19:13] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:19:16] INFO     scraper.trends_scraper — Coletando 3/3: 'gaming'
+[2026-03-14 20:19:16] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 20:19:17] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:19:17] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:19:17] INFO     scraper.trends_scraper — Coleta concluída: 3 termos processados.
+[2026-03-14 20:19:17] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 20:19:08
+[2026-03-14 20:19:17] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 78 | fonte: simulated)
+[2026-03-14 20:19:17] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 20:19:13
+[2026-03-14 20:19:17] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 65 | fonte: simulated)
+[2026-03-14 20:19:17] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 20:19:17
+[2026-03-14 20:19:17] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 89 | fonte: simulated)
+[2026-03-14 20:19:18] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 20:19:18] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 20:19:18
+[2026-03-14 20:19:18] INFO     scheduler.job_runner —    Resultado: 3 salvos | 0 falhas | 0 virais
+[2026-03-14 20:19:18] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:31:43] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 20:31:43] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 20:31:43] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 20:31:43] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-14 20:31:43] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-14 20:31:43] INFO     __main__ — Sistema pronto.
+[2026-03-14 20:31:43] INFO     database.database_manager — Hashtag removida: #leagueoflegends
+[2026-03-14 20:31:43] INFO     database.database_manager — Hashtag removida: #genshinimpact
+[2026-03-14 20:31:43] INFO     database.database_manager — Hashtag removida: #gaming
+[2026-03-14 20:31:45] INFO     database.database_manager — Hashtag adicionada: #gaming
+[2026-03-14 20:31:53] INFO     database.database_manager — Hashtag adicionada: #genshinimpact
+[2026-03-14 20:31:59] INFO     database.database_manager — Hashtag adicionada: #leagueoflegends
+[2026-03-14 20:32:10] INFO     database.database_manager — Hashtag adicionada: #rocketleague
+[2026-03-14 20:32:32] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:32:32] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 20:32:32] INFO     scheduler.job_runner —    Início: 2026-03-14 20:32:32
+[2026-03-14 20:32:32] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-14 20:32:32] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-14 20:32:32] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 20:32:33] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:32:33] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:32:37] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-14 20:32:37] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 20:32:38] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:32:38] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:32:41] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-14 20:32:41] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:32:42] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:32:42] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:32:45] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-14 20:32:45] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 20:32:46] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:32:46] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:32:46] INFO     scraper.trends_scraper — Coleta concluída: 4 termos processados.
+[2026-03-14 20:32:46] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-14 20:32:33
+[2026-03-14 20:32:46] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 36 | fonte: simulated)
+[2026-03-14 20:32:46] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 20:32:38
+[2026-03-14 20:32:46] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 61 | fonte: simulated)
+[2026-03-14 20:32:46] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 20:32:42
+[2026-03-14 20:32:46] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 82 | fonte: simulated)
+[2026-03-14 20:32:46] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 20:32:46
+[2026-03-14 20:32:46] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 96 | fonte: simulated)
+[2026-03-14 20:32:46] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 20:32:46] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 20:32:46
+[2026-03-14 20:32:46] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-14 20:32:46] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:33:38] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:33:38] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 20:33:38] INFO     scheduler.job_runner —    Início: 2026-03-14 20:33:38
+[2026-03-14 20:33:38] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-14 20:33:38] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-14 20:33:38] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 20:33:39] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:33:39] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:33:42] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-14 20:33:42] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 20:33:43] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:33:43] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:33:47] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-14 20:33:47] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:33:48] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:33:48] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:33:51] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-14 20:33:51] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 20:33:52] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:33:52] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:33:52] INFO     scraper.trends_scraper — Coleta concluída: 4 termos processados.
+[2026-03-14 20:33:52] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-14 20:33:39
+[2026-03-14 20:33:52] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 54 | fonte: simulated)
+[2026-03-14 20:33:52] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 20:33:43
+[2026-03-14 20:33:52] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 65 | fonte: simulated)
+[2026-03-14 20:33:52] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 20:33:48
+[2026-03-14 20:33:52] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 67 | fonte: simulated)
+[2026-03-14 20:33:52] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 20:33:52
+[2026-03-14 20:33:52] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 100 | fonte: simulated)
+[2026-03-14 20:33:52] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-14 20:33:52] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-14 20:33:52] INFO     analytics.trend_analyzer —   #rocketleague ↑ +50.0% (24h)
+[2026-03-14 20:33:52] INFO     scheduler.job_runner — 🚨 1 termo(s) viralizando agora:
+[2026-03-14 20:33:52] INFO     scheduler.job_runner —    #rocketleague ↑ +50.0% (24h)
+[2026-03-14 20:33:52] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 20:33:52
+[2026-03-14 20:33:52] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 1 virais
+[2026-03-14 20:33:52] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:33:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-14 20:33:53] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-14 20:33:53] INFO     analytics.trend_analyzer —   #rocketleague ↑ +50.0% (24h)
+[2026-03-14 20:33:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-14 20:33:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-14 20:34:09] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-14 20:34:09] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-14 20:34:09] INFO     analytics.trend_analyzer —   #rocketleague ↑ +50.0% (24h)
+[2026-03-14 20:34:09] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:34:10] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:34:10] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:34:10] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-14 20:34:39] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:34:39] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 20:34:39] INFO     scheduler.job_runner —    Início: 2026-03-14 20:34:39
+[2026-03-14 20:34:39] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-14 20:34:39] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-14 20:34:39] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 20:34:40] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:34:40] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:34:44] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-14 20:34:44] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 20:34:44] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:34:44] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:34:48] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-14 20:34:48] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:34:49] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:34:49] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:34:53] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-14 20:34:53] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 20:34:54] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:34:54] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:34:54] INFO     scraper.trends_scraper — Coleta concluída: 4 termos processados.
+[2026-03-14 20:34:54] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-14 20:34:40
+[2026-03-14 20:34:54] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 21 | fonte: simulated)
+[2026-03-14 20:34:54] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 20:34:44
+[2026-03-14 20:34:54] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 72 | fonte: simulated)
+[2026-03-14 20:34:54] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 20:34:49
+[2026-03-14 20:34:54] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 52 | fonte: simulated)
+[2026-03-14 20:34:54] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 20:34:54
+[2026-03-14 20:34:54] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 84 | fonte: simulated)
+[2026-03-14 20:34:54] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 20:34:54] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 20:34:54
+[2026-03-14 20:34:54] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-14 20:34:54] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:34:54] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:34:55] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:34:55] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:50:27] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:50:27] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 20:50:27] INFO     scheduler.job_runner —    Início: 2026-03-14 20:50:27
+[2026-03-14 20:50:27] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-14 20:50:27] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-14 20:50:27] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 20:50:28] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:50:28] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:50:31] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-14 20:50:31] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 20:50:33] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:50:33] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:50:36] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-14 20:50:36] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:50:37] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:50:37] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:50:41] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-14 20:50:41] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 20:50:42] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:50:42] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 20:50:42] INFO     scraper.trends_scraper — Coleta concluída: 4 termos processados.
+[2026-03-14 20:50:42] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-14 20:50:28
+[2026-03-14 20:50:42] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 48 | fonte: simulated)
+[2026-03-14 20:50:42] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 20:50:33
+[2026-03-14 20:50:42] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 68 | fonte: simulated)
+[2026-03-14 20:50:42] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 20:50:37
+[2026-03-14 20:50:42] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 95 | fonte: simulated)
+[2026-03-14 20:50:42] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 20:50:42
+[2026-03-14 20:50:42] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 73 | fonte: simulated)
+[2026-03-14 20:50:42] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 20:50:42] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 20:50:42
+[2026-03-14 20:50:42] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-14 20:50:42] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 20:50:42] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 20:50:43] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 20:50:43] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 21:02:29] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 21:02:29] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-14 21:02:29] INFO     scheduler.job_runner —    Início: 2026-03-14 21:02:29
+[2026-03-14 21:02:29] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-14 21:02:29] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-14 21:02:29] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 21:02:30] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 21:02:30] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 21:02:34] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-14 21:02:34] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 21:02:35] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 21:02:35] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 21:02:38] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-14 21:02:38] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 21:02:39] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 21:02:39] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 21:02:43] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-14 21:02:43] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-14 21:02:43] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 21:02:43] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 21:02:43] INFO     scraper.trends_scraper — Coleta concluída: 4 termos processados.
+[2026-03-14 21:02:43] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-14 21:02:30
+[2026-03-14 21:02:43] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 44 | fonte: simulated)
+[2026-03-14 21:02:43] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-14 21:02:35
+[2026-03-14 21:02:43] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 53 | fonte: simulated)
+[2026-03-14 21:02:43] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-14 21:02:39
+[2026-03-14 21:02:43] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 56 | fonte: simulated)
+[2026-03-14 21:02:43] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-14 21:02:43
+[2026-03-14 21:02:43] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 72 | fonte: simulated)
+[2026-03-14 21:02:43] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-14 21:02:43] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-14 21:02:43
+[2026-03-14 21:02:43] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-14 21:02:43] INFO     scheduler.job_runner — =======================================================
+[2026-03-14 21:07:46] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 21:07:46] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 21:07:46] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 21:07:46] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-14 21:07:46] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 21:07:46] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-14 21:07:46] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-14 21:07:46] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-14 21:07:46] INFO     __main__ — Sistema pronto.
+[2026-03-14 21:07:46] INFO     __main__ — Sistema pronto.
+[2026-03-14 23:41:47] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:41:48] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:41:48] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:43:05] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 23:43:06] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:43:06] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:43:07] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-14 23:43:08] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:43:08] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:48:14] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:48:15] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:48:15] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:48:32] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:48:33] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:48:33] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:48:50] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 23:48:52] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:48:52] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:49:13] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:49:14] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:49:14] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:49:25] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-14 23:49:26] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:49:26] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:49:50] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:49:52] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:49:52] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:50:21] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:50:22] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:50:22] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:50:32] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:50:33] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:50:33] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:50:52] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:50:53] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:50:53] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-14 23:51:06] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-14 23:51:07] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-14 23:51:07] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 00:05:34] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-15 00:05:35] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 00:05:35] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:00:23] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:00:23] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-15 16:00:23] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:00:23] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-15 16:00:23] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-15 16:00:23] INFO     __main__ — Sistema pronto.
+[2026-03-15 16:01:09] INFO     database.database_manager — Hashtag adicionada: #bigbrotherbrasil
+[2026-03-15 16:01:12] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 16:01:12] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 16:01:12] INFO     scheduler.job_runner —    Início: 2026-03-15 16:01:12
+[2026-03-15 16:01:12] INFO     scheduler.job_runner —    Termos para coletar: 5
+[2026-03-15 16:01:12] INFO     scraper.trends_scraper — Coletando 1/5: 'bigbrotherbrasil'
+[2026-03-15 16:01:12] INFO     scraper.trends_scraper — Coletando tendência para 'bigbrotherbrasil' (geo='mundial')
+[2026-03-15 16:01:13] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'bigbrotherbrasil': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:01:13] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'bigbrotherbrasil'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:01:17] INFO     scraper.trends_scraper — Coletando 2/5: 'rocketleague'
+[2026-03-15 16:01:17] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-15 16:01:17] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:01:17] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:01:21] INFO     scraper.trends_scraper — Coletando 3/5: 'leagueoflegends'
+[2026-03-15 16:01:21] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-15 16:01:22] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:01:22] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:01:26] INFO     scraper.trends_scraper — Coletando 4/5: 'genshinimpact'
+[2026-03-15 16:01:26] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-15 16:01:26] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:01:26] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:01:29] INFO     scraper.trends_scraper — Coletando 5/5: 'gaming'
+[2026-03-15 16:01:29] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-15 16:01:30] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:01:30] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:01:30] INFO     scraper.trends_scraper — Coleta concluída: 5 termos processados.
+[2026-03-15 16:01:30] INFO     database.database_manager — Stats salvas para #bigbrotherbrasil em 2026-03-15 16:01:13
+[2026-03-15 16:01:30] INFO     scheduler.job_runner —    ✓ #bigbrotherbrasil salvo (índice: 55 | fonte: simulated)
+[2026-03-15 16:01:30] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 16:01:17
+[2026-03-15 16:01:30] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 33 | fonte: simulated)
+[2026-03-15 16:01:30] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 16:01:22
+[2026-03-15 16:01:30] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 72 | fonte: simulated)
+[2026-03-15 16:01:30] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 16:01:26
+[2026-03-15 16:01:30] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 82 | fonte: simulated)
+[2026-03-15 16:01:30] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 16:01:30
+[2026-03-15 16:01:30] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 93 | fonte: simulated)
+[2026-03-15 16:01:30] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-15 16:01:30] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 16:01:30
+[2026-03-15 16:01:30] INFO     scheduler.job_runner —    Resultado: 5 salvos | 0 falhas | 0 virais
+[2026-03-15 16:01:30] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 16:02:00] INFO     scraper.trends_scraper — Coletando tendência para 'bigbrotherbrasil' (geo='mundial')
+[2026-03-15 16:02:01] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'bigbrotherbrasil': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:02:01] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'bigbrotherbrasil'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:02:07] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-15 16:02:08] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:02:08] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:02:14] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-15 16:02:15] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:02:15] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:22:04] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:22:04] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-15 16:22:04] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:22:04] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-15 16:22:04] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-15 16:22:04] INFO     __main__ — Sistema pronto.
+[2026-03-15 16:34:16] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:34:16] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:34:16] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-15 16:34:16] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-15 16:34:16] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:34:16] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 16:34:16] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-15 16:34:16] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-15 16:34:16] INFO     __main__ — Sistema pronto.
+[2026-03-15 16:34:16] INFO     __main__ — Sistema pronto.
+[2026-03-15 16:44:04] INFO     scraper.trends_scraper — Coletando tendência para 'bigbrotherbrasil' (geo='mundial')
+[2026-03-15 16:44:05] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'bigbrotherbrasil': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:44:05] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'bigbrotherbrasil'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:44:09] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-15 16:44:09] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:44:09] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:48:18] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 16:48:18] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 16:48:18] INFO     scheduler.job_runner —    Início: 2026-03-15 16:48:18
+[2026-03-15 16:48:18] INFO     scheduler.job_runner —    Termos para coletar: 5
+[2026-03-15 16:48:18] INFO     scraper.trends_scraper — Coletando 1/5: 'bigbrotherbrasil'
+[2026-03-15 16:48:18] INFO     scraper.trends_scraper — Coletando tendência para 'bigbrotherbrasil' (geo='mundial')
+[2026-03-15 16:48:19] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'bigbrotherbrasil': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:48:19] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'bigbrotherbrasil'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:48:22] INFO     scraper.trends_scraper — Coletando 2/5: 'rocketleague'
+[2026-03-15 16:48:22] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-15 16:48:24] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:48:24] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:48:27] INFO     scraper.trends_scraper — Coletando 3/5: 'leagueoflegends'
+[2026-03-15 16:48:27] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-15 16:48:28] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:48:28] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:48:31] INFO     scraper.trends_scraper — Coletando 4/5: 'genshinimpact'
+[2026-03-15 16:48:31] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-15 16:48:32] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:48:32] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:48:35] INFO     scraper.trends_scraper — Coletando 5/5: 'gaming'
+[2026-03-15 16:48:35] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-15 16:48:36] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 16:48:36] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 16:48:36] INFO     scraper.trends_scraper — Coleta concluída: 5 termos processados.
+[2026-03-15 16:48:36] INFO     database.database_manager — Stats salvas para #bigbrotherbrasil em 2026-03-15 16:48:19
+[2026-03-15 16:48:36] INFO     scheduler.job_runner —    ✓ #bigbrotherbrasil salvo (índice: 51 | fonte: simulated)
+[2026-03-15 16:48:36] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 16:48:24
+[2026-03-15 16:48:36] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 45 | fonte: simulated)
+[2026-03-15 16:48:36] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 16:48:28
+[2026-03-15 16:48:36] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 54 | fonte: simulated)
+[2026-03-15 16:48:36] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 16:48:32
+[2026-03-15 16:48:36] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 68 | fonte: simulated)
+[2026-03-15 16:48:36] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 16:48:36
+[2026-03-15 16:48:36] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 84 | fonte: simulated)
+[2026-03-15 16:48:36] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-15 16:48:36] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 16:48:36
+[2026-03-15 16:48:36] INFO     scheduler.job_runner —    Resultado: 5 salvos | 0 falhas | 0 virais
+[2026-03-15 16:48:36] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 17:02:25] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 17:02:25] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 17:02:25] INFO     scheduler.job_runner —    Início: 2026-03-15 17:02:25
+[2026-03-15 17:02:25] INFO     scheduler.job_runner —    Termos para coletar: 5
+[2026-03-15 17:02:25] INFO     scraper.trends_scraper — Coletando 1/5: 'bigbrotherbrasil'
+[2026-03-15 17:02:25] INFO     scraper.trends_scraper — Coletando tendência para 'bigbrotherbrasil' (geo='mundial')
+[2026-03-15 17:02:26] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'bigbrotherbrasil': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 17:02:26] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'bigbrotherbrasil'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 17:02:29] INFO     scraper.trends_scraper — Coletando 2/5: 'rocketleague'
+[2026-03-15 17:02:29] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-15 17:02:30] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 17:02:30] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 17:02:34] INFO     scraper.trends_scraper — Coletando 3/5: 'leagueoflegends'
+[2026-03-15 17:02:34] INFO     scraper.trends_scraper — Coletando tendência para 'leagueoflegends' (geo='mundial')
+[2026-03-15 17:02:35] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 17:02:35] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 17:02:38] INFO     scraper.trends_scraper — Coletando 4/5: 'genshinimpact'
+[2026-03-15 17:02:38] INFO     scraper.trends_scraper — Coletando tendência para 'genshinimpact' (geo='mundial')
+[2026-03-15 17:02:39] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 17:02:39] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 17:02:43] INFO     scraper.trends_scraper — Coletando 5/5: 'gaming'
+[2026-03-15 17:02:43] INFO     scraper.trends_scraper — Coletando tendência para 'gaming' (geo='mundial')
+[2026-03-15 17:02:44] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 17:02:44] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 17:02:44] INFO     scraper.trends_scraper — Coleta concluída: 5 termos processados.
+[2026-03-15 17:02:44] INFO     database.database_manager — Stats salvas para #bigbrotherbrasil em 2026-03-15 17:02:26
+[2026-03-15 17:02:44] INFO     scheduler.job_runner —    ✓ #bigbrotherbrasil salvo (índice: 36 | fonte: simulated)
+[2026-03-15 17:02:44] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 17:02:30
+[2026-03-15 17:02:44] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 55 | fonte: simulated)
+[2026-03-15 17:02:44] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 17:02:35
+[2026-03-15 17:02:44] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 69 | fonte: simulated)
+[2026-03-15 17:02:44] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 17:02:39
+[2026-03-15 17:02:44] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 81 | fonte: simulated)
+[2026-03-15 17:02:44] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 17:02:44
+[2026-03-15 17:02:44] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 94 | fonte: simulated)
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:02:44] INFO     scheduler.job_runner — 🚨 1 termo(s) viralizando agora:
+[2026-03-15 17:02:44] INFO     scheduler.job_runner —    #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:02:44] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 17:02:44
+[2026-03-15 17:02:44] INFO     scheduler.job_runner —    Resultado: 5 salvos | 0 falhas | 1 virais
+[2026-03-15 17:02:44] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:02:44] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:40] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:40] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:26:40] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:26:40] INFO     scraper.trends_scraper — Coletando tendência para 'bigbrotherbrasil' (geo='mundial')
+[2026-03-15 17:26:41] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'bigbrotherbrasil': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 17:26:41] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'bigbrotherbrasil'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 17:26:41] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:26:43] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:45] INFO     database.database_manager — Hashtag removida: #bigbrotherbrasil
+[2026-03-15 17:26:45] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:45] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:26:45] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:26:45] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:45] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:46] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:46] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 17:26:46] INFO     analytics.trend_analyzer —   #rocketleague ↑ +52.8% (24h)
+[2026-03-15 17:26:46] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 17:26:46] INFO     scraper.trends_scraper — Coletando tendência para 'rocketleague' (geo='mundial')
+[2026-03-15 17:26:47] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 17:26:47] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexão).
+[2026-03-15 17:26:47] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +52.78%
+[2026-03-15 21:34:34] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 21:34:34] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-15 21:34:34] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 21:34:34] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-15 21:34:34] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-15 21:34:34] INFO     __main__ — Sistema pronto.
+[2026-03-15 21:34:34] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +66.67%
+[2026-03-15 21:34:34] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 21:34:34] INFO     analytics.trend_analyzer —   #rocketleague ↑ +66.7% (24h)
+[2026-03-15 21:34:34] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +66.67%
+[2026-03-15 21:34:36] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +66.67%
+[2026-03-15 21:38:31] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 21:38:31] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 21:38:31] INFO     scheduler.job_runner —    Início: 2026-03-15 21:38:31
+[2026-03-15 21:38:31] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-15 21:38:31] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-15 21:38:31] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-15 21:38:32] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:32] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:32] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:38:36] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-15 21:38:36] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-15 21:38:37] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:37] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:37] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:38:41] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-15 21:38:41] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-15 21:38:42] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:42] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:42] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:38:45] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-15 21:38:45] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-15 21:38:46] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:46] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:38:46] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:38:46] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-15 21:38:46] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 21:38:32
+[2026-03-15 21:38:46] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 29 | fonte: simulated)
+[2026-03-15 21:38:46] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 21:38:37
+[2026-03-15 21:38:46] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 39 | fonte: simulated)
+[2026-03-15 21:38:46] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 21:38:42
+[2026-03-15 21:38:46] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 56 | fonte: simulated)
+[2026-03-15 21:38:46] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 21:38:46
+[2026-03-15 21:38:46] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 98 | fonte: simulated)
+[2026-03-15 21:38:46] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-15 21:38:46] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 21:38:46
+[2026-03-15 21:38:46] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-15 21:38:46] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 21:42:14] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 21:42:14] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 21:42:14] INFO     scheduler.job_runner —    Início: 2026-03-15 21:42:14
+[2026-03-15 21:42:14] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-15 21:42:14] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-15 21:42:14] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-15 21:42:15] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:15] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:15] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:42:19] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-15 21:42:19] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-15 21:42:20] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:20] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:20] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:42:23] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-15 21:42:23] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-15 21:42:24] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:24] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:24] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:42:27] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-15 21:42:27] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-15 21:42:28] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:28] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:42:28] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:42:28] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-15 21:42:28] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 21:42:15
+[2026-03-15 21:42:28] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 33 | fonte: simulated)
+[2026-03-15 21:42:28] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 21:42:20
+[2026-03-15 21:42:28] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 39 | fonte: simulated)
+[2026-03-15 21:42:28] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 21:42:24
+[2026-03-15 21:42:28] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 82 | fonte: simulated)
+[2026-03-15 21:42:28] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 21:42:28
+[2026-03-15 21:42:28] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 66 | fonte: simulated)
+[2026-03-15 21:42:28] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-15 21:42:28] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 21:42:28
+[2026-03-15 21:42:28] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-15 21:42:28] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 21:49:35] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-15 21:49:36] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:49:36] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:49:36] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 21:53:23] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-15 21:53:24] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:53:24] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 21:53:24] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:29:24] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 22:29:24] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-15 22:29:24] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-15 22:29:24] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-15 22:29:24] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-15 22:29:24] INFO     __main__ — Sistema pronto.
+[2026-03-15 22:31:13] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 22:31:13] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 22:31:13] INFO     scheduler.job_runner —    Início: 2026-03-15 22:31:13
+[2026-03-15 22:31:13] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-15 22:31:13] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-15 22:31:13] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='US')
+[2026-03-15 22:31:14] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:14] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:14] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:31:17] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-15 22:31:17] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='US')
+[2026-03-15 22:31:18] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:18] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:18] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:31:22] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-15 22:31:22] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='US')
+[2026-03-15 22:31:23] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:23] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:23] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:31:26] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-15 22:31:26] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='US')
+[2026-03-15 22:31:26] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:26] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:31:26] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:31:26] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-15 22:31:26] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 22:31:14
+[2026-03-15 22:31:26] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 67 | fonte: simulated)
+[2026-03-15 22:31:26] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 22:31:18
+[2026-03-15 22:31:26] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 79 | fonte: simulated)
+[2026-03-15 22:31:26] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 22:31:23
+[2026-03-15 22:31:26] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 68 | fonte: simulated)
+[2026-03-15 22:31:26] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 22:31:26
+[2026-03-15 22:31:26] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 71 | fonte: simulated)
+[2026-03-15 22:31:26] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:27] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:27] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:27] INFO     scheduler.job_runner — 🚨 1 termo(s) viralizando agora:
+[2026-03-15 22:31:27] INFO     scheduler.job_runner —    #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:27] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 22:31:27
+[2026-03-15 22:31:27] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 1 virais
+[2026-03-15 22:31:27] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 22:31:27] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:27] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:27] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:27] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:27] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:30] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:31] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:31] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:31] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:31] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:34] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:34] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:34] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:34] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:34] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:36] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:36] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:36] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:36] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:36] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:39] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:39] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:39] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:39] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:39] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:40] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:40] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:40] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:40] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:41] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:56] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:56] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:56] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:56] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:56] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:59] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:59] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:31:59] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:31:59] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:31:59] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:32:03] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:32:03] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:32:03] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:32:03] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:32:03] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:32:09] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:32:09] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-15 22:32:09] INFO     analytics.trend_analyzer —   #rocketleague ↑ +103.0% (24h)
+[2026-03-15 22:32:09] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:32:09] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +103.03%
+[2026-03-15 22:32:21] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 22:32:21] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 22:32:21] INFO     scheduler.job_runner —    Início: 2026-03-15 22:32:21
+[2026-03-15 22:32:21] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-15 22:32:21] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-15 22:32:21] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-15 22:32:22] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:22] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:22] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:32:26] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-15 22:32:26] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-15 22:32:27] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:27] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:27] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:32:30] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-15 22:32:30] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-15 22:32:31] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:31] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:31] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:32:34] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-15 22:32:34] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-15 22:32:35] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:35] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 22:32:35] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 22:32:35] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-15 22:32:35] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 22:32:22
+[2026-03-15 22:32:35] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 34 | fonte: simulated)
+[2026-03-15 22:32:35] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 22:32:27
+[2026-03-15 22:32:35] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 67 | fonte: simulated)
+[2026-03-15 22:32:35] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 22:32:31
+[2026-03-15 22:32:35] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 96 | fonte: simulated)
+[2026-03-15 22:32:35] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 22:32:35
+[2026-03-15 22:32:35] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 90 | fonte: simulated)
+[2026-03-15 22:32:35] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-15 22:32:35] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 22:32:35
+[2026-03-15 22:32:35] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-15 22:32:35] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 23:44:46] INFO     scheduler.job_runner — =======================================================
+[2026-03-15 23:44:46] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-15 23:44:46] INFO     scheduler.job_runner —    Início: 2026-03-15 23:44:46
+[2026-03-15 23:44:46] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-15 23:44:46] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-15 23:44:46] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-15 23:44:47] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:47] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:47] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 23:44:50] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-15 23:44:50] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-15 23:44:51] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:51] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:51] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 23:44:54] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-15 23:44:54] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-15 23:44:55] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:55] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:55] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 23:44:58] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-15 23:44:58] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-15 23:44:59] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:59] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-15 23:44:59] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-15 23:44:59] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-15 23:44:59] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-15 23:44:47
+[2026-03-15 23:44:59] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 46 | fonte: simulated)
+[2026-03-15 23:44:59] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-15 23:44:51
+[2026-03-15 23:44:59] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 63 | fonte: simulated)
+[2026-03-15 23:44:59] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-15 23:44:55
+[2026-03-15 23:44:59] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 72 | fonte: simulated)
+[2026-03-15 23:44:59] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-15 23:44:59
+[2026-03-15 23:44:59] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 93 | fonte: simulated)
+[2026-03-15 23:45:00] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-15 23:45:00] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-15 23:45:00
+[2026-03-15 23:45:00] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-15 23:45:00] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:09:41] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:09:41] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-16 00:09:41] INFO     scheduler.job_runner —    Início: 2026-03-16 00:09:41
+[2026-03-16 00:09:41] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-16 00:09:41] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-16 00:09:41] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-16 00:09:42] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:42] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:42] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:09:46] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-16 00:09:46] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-16 00:09:47] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:47] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:47] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:09:51] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-16 00:09:51] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-16 00:09:52] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:52] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:52] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:09:55] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-16 00:09:55] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-16 00:09:56] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:56] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:09:56] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:09:56] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-16 00:09:56] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-16 00:09:42
+[2026-03-16 00:09:56] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 37 | fonte: simulated)
+[2026-03-16 00:09:56] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-16 00:09:47
+[2026-03-16 00:09:56] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 68 | fonte: simulated)
+[2026-03-16 00:09:56] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-16 00:09:52
+[2026-03-16 00:09:56] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 70 | fonte: simulated)
+[2026-03-16 00:09:56] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-16 00:09:56
+[2026-03-16 00:09:56] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 80 | fonte: simulated)
+[2026-03-16 00:09:56] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-16 00:09:56] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-16 00:09:56
+[2026-03-16 00:09:56] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-16 00:09:56] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:10:35] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:10:35] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-16 00:10:35] INFO     scheduler.job_runner —    Início: 2026-03-16 00:10:35
+[2026-03-16 00:10:35] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-16 00:10:35] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-16 00:10:35] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-16 00:10:36] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:36] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:36] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:10:39] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-16 00:10:39] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-16 00:10:41] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:41] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:41] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:10:44] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-16 00:10:44] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-16 00:10:45] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:45] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:45] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:10:48] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-16 00:10:48] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-16 00:10:49] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:49] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:10:49] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:10:49] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-16 00:10:49] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-16 00:10:36
+[2026-03-16 00:10:49] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 57 | fonte: simulated)
+[2026-03-16 00:10:49] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-16 00:10:41
+[2026-03-16 00:10:49] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 55 | fonte: simulated)
+[2026-03-16 00:10:49] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-16 00:10:45
+[2026-03-16 00:10:49] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 57 | fonte: simulated)
+[2026-03-16 00:10:49] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-16 00:10:49
+[2026-03-16 00:10:49] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 94 | fonte: simulated)
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer —   #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:10:49] INFO     scheduler.job_runner — 🚨 1 termo(s) viralizando agora:
+[2026-03-16 00:10:49] INFO     scheduler.job_runner —    #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:10:49] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-16 00:10:49
+[2026-03-16 00:10:49] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 1 virais
+[2026-03-16 00:10:49] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer —   #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:10:49] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:51] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:51] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-16 00:46:51] INFO     analytics.trend_analyzer —   #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:46:51] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:51] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer —   #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer —   #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:46:53] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:54] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:55] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:55] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-16 00:46:55] INFO     analytics.trend_analyzer —   #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:46:55] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:55] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:57] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:57] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-16 00:46:57] INFO     analytics.trend_analyzer —   #rocketleague ↑ +72.7% (24h)
+[2026-03-16 00:46:57] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:57] INFO     analytics.trend_analyzer — 🔥 'rocketleague' está VIRAL! Crescimento 24h: +72.73%
+[2026-03-16 00:46:58] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:46:58] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-16 00:46:58] INFO     scheduler.job_runner —    Início: 2026-03-16 00:46:58
+[2026-03-16 00:46:58] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-16 00:46:58] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-16 00:46:58] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='BR')
+[2026-03-16 00:46:59] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:46:59] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:46:59] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:47:02] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-16 00:47:02] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='BR')
+[2026-03-16 00:47:03] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:03] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:03] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:47:06] INFO     scraper.trends_scraper — Coletando 3/4: 'genshinimpact'
+[2026-03-16 00:47:06] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='BR')
+[2026-03-16 00:47:07] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:07] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:07] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:47:10] INFO     scraper.trends_scraper — Coletando 4/4: 'gaming'
+[2026-03-16 00:47:10] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='BR')
+[2026-03-16 00:47:11] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:11] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:11] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:47:11] INFO     scraper.trends_scraper — Coleta concluida: 4 termos processados.
+[2026-03-16 00:47:11] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-16 00:46:59
+[2026-03-16 00:47:11] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 40 | fonte: simulated)
+[2026-03-16 00:47:11] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-16 00:47:03
+[2026-03-16 00:47:11] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 54 | fonte: simulated)
+[2026-03-16 00:47:11] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-16 00:47:07
+[2026-03-16 00:47:11] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 57 | fonte: simulated)
+[2026-03-16 00:47:11] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-16 00:47:11
+[2026-03-16 00:47:11] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 82 | fonte: simulated)
+[2026-03-16 00:47:11] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-16 00:47:11] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-16 00:47:11
+[2026-03-16 00:47:11] INFO     scheduler.job_runner —    Resultado: 4 salvos | 0 falhas | 0 virais
+[2026-03-16 00:47:11] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:47:20] INFO     scheduler.job_runner — =======================================================
+[2026-03-16 00:47:20] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-16 00:47:20] INFO     scheduler.job_runner —    Início: 2026-03-16 00:47:20
+[2026-03-16 00:47:20] INFO     scheduler.job_runner —    Termos para coletar: 4
+[2026-03-16 00:47:20] INFO     scraper.trends_scraper — Coletando 1/4: 'rocketleague'
+[2026-03-16 00:47:20] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='BR')
+[2026-03-16 00:47:21] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:21] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:21] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-16 00:47:25] INFO     scraper.trends_scraper — Coletando 2/4: 'leagueoflegends'
+[2026-03-16 00:47:25] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='BR')
+[2026-03-16 00:47:26] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:26] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-16 00:47:26] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:31:28] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-17 13:31:28] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-17 13:31:28] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-17 13:31:28] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-17 13:31:28] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-17 13:31:28] INFO     __main__ — Sistema pronto.
+[2026-03-17 13:31:47] INFO     database.database_manager — Hashtag adicionada: #nanatsu
+[2026-03-17 13:32:06] INFO     database.database_manager — Hashtag adicionada: #sevendeadlysins
+[2026-03-17 13:32:21] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 13:32:21] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-17 13:32:21] INFO     scheduler.job_runner —    Início: 2026-03-17 13:32:21
+[2026-03-17 13:32:21] INFO     scheduler.job_runner —    Termos para coletar: 6
+[2026-03-17 13:32:21] INFO     scraper.trends_scraper — Coletando 1/6: 'sevendeadlysins'
+[2026-03-17 13:32:21] INFO     scraper.trends_scraper — Coletando 'sevendeadlysins' (geo='mundial')
+[2026-03-17 13:32:22] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'sevendeadlysins': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:22] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'sevendeadlysins': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:22] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'sevendeadlysins'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:32:25] INFO     scraper.trends_scraper — Coletando 2/6: 'nanatsu'
+[2026-03-17 13:32:25] INFO     scraper.trends_scraper — Coletando 'nanatsu' (geo='mundial')
+[2026-03-17 13:32:26] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsu': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:26] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsu': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:26] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsu'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:32:30] INFO     scraper.trends_scraper — Coletando 3/6: 'rocketleague'
+[2026-03-17 13:32:30] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-17 13:32:31] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:31] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:31] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:32:35] INFO     scraper.trends_scraper — Coletando 4/6: 'leagueoflegends'
+[2026-03-17 13:32:35] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-17 13:32:36] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:36] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:36] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:32:39] INFO     scraper.trends_scraper — Coletando 5/6: 'genshinimpact'
+[2026-03-17 13:32:39] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-17 13:32:40] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:40] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:40] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:32:43] INFO     scraper.trends_scraper — Coletando 6/6: 'gaming'
+[2026-03-17 13:32:43] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-17 13:32:44] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:44] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:32:44] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:32:44] INFO     scraper.trends_scraper — Coleta concluida: 6 termos processados.
+[2026-03-17 13:32:44] INFO     database.database_manager — Stats salvas para #sevendeadlysins em 2026-03-17 13:32:22
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    ✓ #sevendeadlysins salvo (índice: 30 | fonte: simulated)
+[2026-03-17 13:32:44] INFO     database.database_manager — Stats salvas para #nanatsu em 2026-03-17 13:32:26
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    ✓ #nanatsu salvo (índice: 58 | fonte: simulated)
+[2026-03-17 13:32:44] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-17 13:32:31
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 62 | fonte: simulated)
+[2026-03-17 13:32:44] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-17 13:32:36
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 60 | fonte: simulated)
+[2026-03-17 13:32:44] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-17 13:32:40
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 66 | fonte: simulated)
+[2026-03-17 13:32:44] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-17 13:32:44
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 78 | fonte: simulated)
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-17 13:32:44] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-17 13:32:44
+[2026-03-17 13:32:44] INFO     scheduler.job_runner —    Resultado: 6 salvos | 0 falhas | 0 virais
+[2026-03-17 13:32:44] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 13:34:04] INFO     database.database_manager — Hashtag removida: #sevendeadlysins
+[2026-03-17 13:34:11] INFO     database.database_manager — Hashtag adicionada: #nanatsuorigins
+[2026-03-17 13:34:13] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 13:34:13] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-17 13:34:13] INFO     scheduler.job_runner —    Início: 2026-03-17 13:34:13
+[2026-03-17 13:34:13] INFO     scheduler.job_runner —    Termos para coletar: 6
+[2026-03-17 13:34:13] INFO     scraper.trends_scraper — Coletando 1/6: 'nanatsuorigins'
+[2026-03-17 13:34:13] INFO     scraper.trends_scraper — Coletando 'nanatsuorigins' (geo='mundial')
+[2026-03-17 13:34:13] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsuorigins': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:13] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsuorigins': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:13] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsuorigins'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:34:17] INFO     scraper.trends_scraper — Coletando 2/6: 'nanatsu'
+[2026-03-17 13:34:17] INFO     scraper.trends_scraper — Coletando 'nanatsu' (geo='mundial')
+[2026-03-17 13:34:18] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsu': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:18] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsu': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:18] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsu'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:34:22] INFO     scraper.trends_scraper — Coletando 3/6: 'rocketleague'
+[2026-03-17 13:34:22] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-17 13:34:23] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:23] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:23] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:34:26] INFO     scraper.trends_scraper — Coletando 4/6: 'leagueoflegends'
+[2026-03-17 13:34:26] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-17 13:34:27] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:27] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:27] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:34:30] INFO     scraper.trends_scraper — Coletando 5/6: 'genshinimpact'
+[2026-03-17 13:34:30] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-17 13:34:32] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:32] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:32] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:34:35] INFO     scraper.trends_scraper — Coletando 6/6: 'gaming'
+[2026-03-17 13:34:35] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-17 13:34:36] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:36] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 13:34:36] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 13:34:36] INFO     scraper.trends_scraper — Coleta concluida: 6 termos processados.
+[2026-03-17 13:34:36] INFO     database.database_manager — Stats salvas para #nanatsuorigins em 2026-03-17 13:34:13
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    ✓ #nanatsuorigins salvo (índice: 61 | fonte: simulated)
+[2026-03-17 13:34:36] INFO     database.database_manager — Stats salvas para #nanatsu em 2026-03-17 13:34:18
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    ✓ #nanatsu salvo (índice: 37 | fonte: simulated)
+[2026-03-17 13:34:36] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-17 13:34:23
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 46 | fonte: simulated)
+[2026-03-17 13:34:36] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-17 13:34:27
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 52 | fonte: simulated)
+[2026-03-17 13:34:36] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-17 13:34:32
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 77 | fonte: simulated)
+[2026-03-17 13:34:36] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-17 13:34:36
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 85 | fonte: simulated)
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-17 13:34:36] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-17 13:34:36
+[2026-03-17 13:34:36] INFO     scheduler.job_runner —    Resultado: 6 salvos | 0 falhas | 0 virais
+[2026-03-17 13:34:36] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:24:23] INFO     database.database_manager — Hashtag adicionada: #escoffier
+[2026-03-17 17:24:27] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:24:27] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-17 17:24:27] INFO     scheduler.job_runner —    Início: 2026-03-17 17:24:27
+[2026-03-17 17:24:27] INFO     scheduler.job_runner —    Termos para coletar: 7
+[2026-03-17 17:24:27] INFO     scraper.trends_scraper — Coletando 1/7: 'escoffier'
+[2026-03-17 17:24:27] INFO     scraper.trends_scraper — Coletando 'escoffier' (geo='mundial')
+[2026-03-17 17:24:28] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'escoffier': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:28] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'escoffier': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:28] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'escoffier'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:24:31] INFO     scraper.trends_scraper — Coletando 2/7: 'nanatsuorigins'
+[2026-03-17 17:24:31] INFO     scraper.trends_scraper — Coletando 'nanatsuorigins' (geo='mundial')
+[2026-03-17 17:24:31] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsuorigins': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:31] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsuorigins': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:31] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsuorigins'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:24:35] INFO     scraper.trends_scraper — Coletando 3/7: 'nanatsu'
+[2026-03-17 17:24:35] INFO     scraper.trends_scraper — Coletando 'nanatsu' (geo='mundial')
+[2026-03-17 17:24:36] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsu': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:36] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsu': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:36] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsu'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:24:39] INFO     scraper.trends_scraper — Coletando 4/7: 'rocketleague'
+[2026-03-17 17:24:39] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-17 17:24:40] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:40] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:40] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:24:44] INFO     scraper.trends_scraper — Coletando 5/7: 'leagueoflegends'
+[2026-03-17 17:24:44] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-17 17:24:45] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:45] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:45] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:24:48] INFO     scraper.trends_scraper — Coletando 6/7: 'genshinimpact'
+[2026-03-17 17:24:48] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-17 17:24:49] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:49] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:49] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:24:53] INFO     scraper.trends_scraper — Coletando 7/7: 'gaming'
+[2026-03-17 17:24:53] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-17 17:24:54] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:54] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:24:54] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:24:54] INFO     scraper.trends_scraper — Coleta concluida: 7 termos processados.
+[2026-03-17 17:24:54] INFO     database.database_manager — Stats salvas para #escoffier em 2026-03-17 17:24:28
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    ✓ #escoffier salvo (índice: 13 | fonte: simulated)
+[2026-03-17 17:24:54] INFO     database.database_manager — Stats salvas para #nanatsuorigins em 2026-03-17 17:24:31
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    ✓ #nanatsuorigins salvo (índice: 48 | fonte: simulated)
+[2026-03-17 17:24:54] INFO     database.database_manager — Stats salvas para #nanatsu em 2026-03-17 17:24:36
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    ✓ #nanatsu salvo (índice: 45 | fonte: simulated)
+[2026-03-17 17:24:54] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-17 17:24:40
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 44 | fonte: simulated)
+[2026-03-17 17:24:54] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-17 17:24:45
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 72 | fonte: simulated)
+[2026-03-17 17:24:54] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-17 17:24:49
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 72 | fonte: simulated)
+[2026-03-17 17:24:54] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-17 17:24:54
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 90 | fonte: simulated)
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-17 17:24:54] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-17 17:24:54
+[2026-03-17 17:24:54] INFO     scheduler.job_runner —    Resultado: 7 salvos | 0 falhas | 0 virais
+[2026-03-17 17:24:54] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:46:38] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:46:38] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-17 17:46:38] INFO     scheduler.job_runner —    Início: 2026-03-17 17:46:38
+[2026-03-17 17:46:38] INFO     scheduler.job_runner —    Termos para coletar: 7
+[2026-03-17 17:46:38] INFO     scraper.trends_scraper — Coletando 1/7: 'escoffier'
+[2026-03-17 17:46:38] INFO     scraper.trends_scraper — Coletando 'escoffier' (geo='mundial')
+[2026-03-17 17:46:39] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'escoffier': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:39] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'escoffier': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:39] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'escoffier'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:46:43] INFO     scraper.trends_scraper — Coletando 2/7: 'nanatsuorigins'
+[2026-03-17 17:46:43] INFO     scraper.trends_scraper — Coletando 'nanatsuorigins' (geo='mundial')
+[2026-03-17 17:46:44] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsuorigins': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:44] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsuorigins': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:44] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsuorigins'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:46:47] INFO     scraper.trends_scraper — Coletando 3/7: 'nanatsu'
+[2026-03-17 17:46:47] INFO     scraper.trends_scraper — Coletando 'nanatsu' (geo='mundial')
+[2026-03-17 17:46:48] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsu': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:48] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsu': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:48] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsu'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:46:51] INFO     scraper.trends_scraper — Coletando 4/7: 'rocketleague'
+[2026-03-17 17:46:51] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-17 17:46:52] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:52] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:52] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:46:55] INFO     scraper.trends_scraper — Coletando 5/7: 'leagueoflegends'
+[2026-03-17 17:46:55] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-17 17:46:56] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:56] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:46:56] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:46:59] INFO     scraper.trends_scraper — Coletando 6/7: 'genshinimpact'
+[2026-03-17 17:46:59] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-17 17:47:01] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:47:01] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:47:01] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:47:04] INFO     scraper.trends_scraper — Coletando 7/7: 'gaming'
+[2026-03-17 17:47:04] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-17 17:47:05] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:47:05] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:47:05] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:47:05] INFO     scraper.trends_scraper — Coleta concluida: 7 termos processados.
+[2026-03-17 17:47:05] INFO     database.database_manager — Stats salvas para #escoffier em 2026-03-17 17:46:39
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    ✓ #escoffier salvo (índice: 46 | fonte: simulated)
+[2026-03-17 17:47:05] INFO     database.database_manager — Stats salvas para #nanatsuorigins em 2026-03-17 17:46:44
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    ✓ #nanatsuorigins salvo (índice: 25 | fonte: simulated)
+[2026-03-17 17:47:05] INFO     database.database_manager — Stats salvas para #nanatsu em 2026-03-17 17:46:48
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    ✓ #nanatsu salvo (índice: 63 | fonte: simulated)
+[2026-03-17 17:47:05] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-17 17:46:52
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 38 | fonte: simulated)
+[2026-03-17 17:47:05] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-17 17:46:56
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 43 | fonte: simulated)
+[2026-03-17 17:47:05] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-17 17:47:01
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 76 | fonte: simulated)
+[2026-03-17 17:47:05] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-17 17:47:05
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 94 | fonte: simulated)
+[2026-03-17 17:47:05] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:47:05] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:47:05] INFO     analytics.trend_analyzer —   #escoffier ↑ +253.8% (24h)
+[2026-03-17 17:47:05] INFO     scheduler.job_runner — 🚨 1 termo(s) viralizando agora:
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    #escoffier ↑ +253.8% (24h)
+[2026-03-17 17:47:05] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-17 17:47:05
+[2026-03-17 17:47:05] INFO     scheduler.job_runner —    Resultado: 7 salvos | 0 falhas | 1 virais
+[2026-03-17 17:47:05] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:47:05] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:47:06] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:47:06] INFO     analytics.trend_analyzer —   #escoffier ↑ +253.8% (24h)
+[2026-03-17 17:47:06] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:47:06] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:53:02] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:53:03] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:53:03] INFO     analytics.trend_analyzer —   #escoffier ↑ +253.8% (24h)
+[2026-03-17 17:53:03] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:53:03] INFO     scraper.trends_scraper — Coletando 'escoffier' (geo='mundial')
+[2026-03-17 17:53:04] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'escoffier': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:04] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'escoffier': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:04] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'escoffier'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:04] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:53:06] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:53:06] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:53:06] INFO     analytics.trend_analyzer —   #escoffier ↑ +253.8% (24h)
+[2026-03-17 17:53:06] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +253.85%
+[2026-03-17 17:53:09] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:53:09] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-17 17:53:09] INFO     scheduler.job_runner —    Início: 2026-03-17 17:53:09
+[2026-03-17 17:53:09] INFO     scheduler.job_runner —    Termos para coletar: 7
+[2026-03-17 17:53:09] INFO     scraper.trends_scraper — Coletando 1/7: 'escoffier'
+[2026-03-17 17:53:09] INFO     scraper.trends_scraper — Coletando 'escoffier' (geo='mundial')
+[2026-03-17 17:53:10] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'escoffier': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:10] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'escoffier': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:10] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'escoffier'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:13] INFO     scraper.trends_scraper — Coletando 2/7: 'nanatsuorigins'
+[2026-03-17 17:53:13] INFO     scraper.trends_scraper — Coletando 'nanatsuorigins' (geo='mundial')
+[2026-03-17 17:53:14] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsuorigins': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:14] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsuorigins': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:14] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsuorigins'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:18] INFO     scraper.trends_scraper — Coletando 3/7: 'nanatsu'
+[2026-03-17 17:53:18] INFO     scraper.trends_scraper — Coletando 'nanatsu' (geo='mundial')
+[2026-03-17 17:53:19] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsu': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:19] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsu': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:19] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsu'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:22] INFO     scraper.trends_scraper — Coletando 4/7: 'rocketleague'
+[2026-03-17 17:53:22] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-17 17:53:23] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:23] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:23] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:27] INFO     scraper.trends_scraper — Coletando 5/7: 'leagueoflegends'
+[2026-03-17 17:53:27] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-17 17:53:27] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:27] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:27] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:31] INFO     scraper.trends_scraper — Coletando 6/7: 'genshinimpact'
+[2026-03-17 17:53:31] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-17 17:53:32] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:32] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:32] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:36] INFO     scraper.trends_scraper — Coletando 7/7: 'gaming'
+[2026-03-17 17:53:36] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-17 17:53:37] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:37] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:37] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:37] INFO     scraper.trends_scraper — Coleta concluida: 7 termos processados.
+[2026-03-17 17:53:37] INFO     database.database_manager — Stats salvas para #escoffier em 2026-03-17 17:53:10
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    ✓ #escoffier salvo (índice: 69 | fonte: simulated)
+[2026-03-17 17:53:37] INFO     database.database_manager — Stats salvas para #nanatsuorigins em 2026-03-17 17:53:14
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    ✓ #nanatsuorigins salvo (índice: 36 | fonte: simulated)
+[2026-03-17 17:53:37] INFO     database.database_manager — Stats salvas para #nanatsu em 2026-03-17 17:53:19
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    ✓ #nanatsu salvo (índice: 26 | fonte: simulated)
+[2026-03-17 17:53:37] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-17 17:53:23
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 54 | fonte: simulated)
+[2026-03-17 17:53:37] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-17 17:53:27
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 47 | fonte: simulated)
+[2026-03-17 17:53:37] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-17 17:53:32
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 81 | fonte: simulated)
+[2026-03-17 17:53:37] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-17 17:53:37
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 87 | fonte: simulated)
+[2026-03-17 17:53:37] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:53:37] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:53:37] INFO     analytics.trend_analyzer —   #escoffier ↑ +50.0% (24h)
+[2026-03-17 17:53:37] INFO     scheduler.job_runner — 🚨 1 termo(s) viralizando agora:
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    #escoffier ↑ +50.0% (24h)
+[2026-03-17 17:53:37] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-17 17:53:37
+[2026-03-17 17:53:37] INFO     scheduler.job_runner —    Resultado: 7 salvos | 0 falhas | 1 virais
+[2026-03-17 17:53:37] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:53:37] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:53:37] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:53:37] INFO     analytics.trend_analyzer —   #escoffier ↑ +50.0% (24h)
+[2026-03-17 17:53:37] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:53:37] INFO     scraper.trends_scraper — Coletando 'escoffier' (geo='mundial')
+[2026-03-17 17:53:38] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'escoffier': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:38] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'escoffier': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:53:38] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'escoffier'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:53:38] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:53:39] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:53:39] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:53:39] INFO     analytics.trend_analyzer —   #escoffier ↑ +50.0% (24h)
+[2026-03-17 17:53:39] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:53:39] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:54:53] INFO     database.database_manager — Hashtag adicionada: #wutheringwaves
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer —   #escoffier ↑ +50.0% (24h)
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer — 🚨 1 termo(s) viralizando agora!
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer —   #escoffier ↑ +50.0% (24h)
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:54:53] INFO     analytics.trend_analyzer — 🔥 'escoffier' está VIRAL! Crescimento 24h: +50.0%
+[2026-03-17 17:54:55] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 17:54:55] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-17 17:54:55] INFO     scheduler.job_runner —    Início: 2026-03-17 17:54:55
+[2026-03-17 17:54:55] INFO     scheduler.job_runner —    Termos para coletar: 8
+[2026-03-17 17:54:55] INFO     scraper.trends_scraper — Coletando 1/8: 'wutheringwaves'
+[2026-03-17 17:54:55] INFO     scraper.trends_scraper — Coletando 'wutheringwaves' (geo='mundial')
+[2026-03-17 17:54:56] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'wutheringwaves': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:54:56] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'wutheringwaves': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:54:56] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'wutheringwaves'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:00] INFO     scraper.trends_scraper — Coletando 2/8: 'escoffier'
+[2026-03-17 17:55:00] INFO     scraper.trends_scraper — Coletando 'escoffier' (geo='mundial')
+[2026-03-17 17:55:00] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'escoffier': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:00] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'escoffier': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:00] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'escoffier'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:03] INFO     scraper.trends_scraper — Coletando 3/8: 'nanatsuorigins'
+[2026-03-17 17:55:03] INFO     scraper.trends_scraper — Coletando 'nanatsuorigins' (geo='mundial')
+[2026-03-17 17:55:04] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsuorigins': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:04] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsuorigins': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:04] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsuorigins'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:08] INFO     scraper.trends_scraper — Coletando 4/8: 'nanatsu'
+[2026-03-17 17:55:08] INFO     scraper.trends_scraper — Coletando 'nanatsu' (geo='mundial')
+[2026-03-17 17:55:09] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsu': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:09] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsu': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:09] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsu'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:13] INFO     scraper.trends_scraper — Coletando 5/8: 'rocketleague'
+[2026-03-17 17:55:13] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-17 17:55:14] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:14] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:14] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:17] INFO     scraper.trends_scraper — Coletando 6/8: 'leagueoflegends'
+[2026-03-17 17:55:17] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-17 17:55:18] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:18] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:18] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:21] INFO     scraper.trends_scraper — Coletando 7/8: 'genshinimpact'
+[2026-03-17 17:55:21] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-17 17:55:22] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:22] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:22] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:25] INFO     scraper.trends_scraper — Coletando 8/8: 'gaming'
+[2026-03-17 17:55:25] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-17 17:55:27] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:27] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-17 17:55:27] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-17 17:55:27] INFO     scraper.trends_scraper — Coleta concluida: 8 termos processados.
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #wutheringwaves em 2026-03-17 17:54:56
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #wutheringwaves salvo (índice: 58 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #escoffier em 2026-03-17 17:55:00
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #escoffier salvo (índice: 54 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #nanatsuorigins em 2026-03-17 17:55:04
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #nanatsuorigins salvo (índice: 33 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #nanatsu em 2026-03-17 17:55:09
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #nanatsu salvo (índice: 63 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-17 17:55:14
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 73 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-17 17:55:18
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 51 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-17 17:55:22
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 70 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-17 17:55:27
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 89 | fonte: simulated)
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-17 17:55:27] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-17 17:55:27
+[2026-03-17 17:55:27] INFO     scheduler.job_runner —    Resultado: 8 salvos | 0 falhas | 0 virais
+[2026-03-17 17:55:27] INFO     scheduler.job_runner — =======================================================
+[2026-03-17 20:37:36] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-17 20:37:36] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-17 20:37:36] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-17 20:37:36] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-17 20:37:36] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-17 20:37:36] INFO     __main__ — Sistema pronto.
+[2026-03-20 00:51:10] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-20 00:51:10] INFO     __main__ —   Trend Monitor — Iniciando...
+[2026-03-20 00:51:10] INFO     __main__ — ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-03-20 00:51:10] INFO     database.database_manager — Inicializando banco de dados...
+[2026-03-20 00:51:10] INFO     database.database_manager — Banco de dados pronto.
+[2026-03-20 00:51:10] INFO     __main__ — Sistema pronto.
+[2026-03-20 00:51:31] INFO     scheduler.job_runner — =======================================================
+[2026-03-20 00:51:31] INFO     scheduler.job_runner — 🚀 Iniciando pipeline de coleta...
+[2026-03-20 00:51:31] INFO     scheduler.job_runner —    Início: 2026-03-20 00:51:31
+[2026-03-20 00:51:31] INFO     scheduler.job_runner —    Termos para coletar: 8
+[2026-03-20 00:51:31] INFO     scraper.trends_scraper — Coletando 1/8: 'wutheringwaves'
+[2026-03-20 00:51:31] INFO     scraper.trends_scraper — Coletando 'wutheringwaves' (geo='mundial')
+[2026-03-20 00:51:32] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'wutheringwaves': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:32] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'wutheringwaves': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:32] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'wutheringwaves'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:51:36] INFO     scraper.trends_scraper — Coletando 2/8: 'escoffier'
+[2026-03-20 00:51:36] INFO     scraper.trends_scraper — Coletando 'escoffier' (geo='mundial')
+[2026-03-20 00:51:37] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'escoffier': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:37] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'escoffier': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:37] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'escoffier'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:51:40] INFO     scraper.trends_scraper — Coletando 3/8: 'nanatsuorigins'
+[2026-03-20 00:51:40] INFO     scraper.trends_scraper — Coletando 'nanatsuorigins' (geo='mundial')
+[2026-03-20 00:51:41] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsuorigins': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:41] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsuorigins': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:41] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsuorigins'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:51:45] INFO     scraper.trends_scraper — Coletando 4/8: 'nanatsu'
+[2026-03-20 00:51:45] INFO     scraper.trends_scraper — Coletando 'nanatsu' (geo='mundial')
+[2026-03-20 00:51:46] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'nanatsu': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:46] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'nanatsu': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:46] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'nanatsu'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:51:50] INFO     scraper.trends_scraper — Coletando 5/8: 'rocketleague'
+[2026-03-20 00:51:50] INFO     scraper.trends_scraper — Coletando 'rocketleague' (geo='mundial')
+[2026-03-20 00:51:51] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'rocketleague': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:51] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'rocketleague': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:51] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'rocketleague'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:51:54] INFO     scraper.trends_scraper — Coletando 6/8: 'leagueoflegends'
+[2026-03-20 00:51:54] INFO     scraper.trends_scraper — Coletando 'leagueoflegends' (geo='mundial')
+[2026-03-20 00:51:55] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'leagueoflegends': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:55] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'leagueoflegends': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:51:55] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'leagueoflegends'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:51:59] INFO     scraper.trends_scraper — Coletando 7/8: 'genshinimpact'
+[2026-03-20 00:51:59] INFO     scraper.trends_scraper — Coletando 'genshinimpact' (geo='mundial')
+[2026-03-20 00:52:00] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'genshinimpact': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:52:00] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'genshinimpact': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:52:00] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'genshinimpact'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:52:03] INFO     scraper.trends_scraper — Coletando 8/8: 'gaming'
+[2026-03-20 00:52:03] INFO     scraper.trends_scraper — Coletando 'gaming' (geo='mundial')
+[2026-03-20 00:52:04] WARNING  scraper.trends_scraper — Falha ao buscar sugestoes para 'gaming': Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:52:04] ERROR    scraper.trends_scraper — Erro ao buscar interesse para 'gaming': TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+[2026-03-20 00:52:04] WARNING  scraper.trends_scraper — [Simulado] Usando dados simulados para 'gaming'. Google Trends falhou (rate limit ou sem conexao).
+[2026-03-20 00:52:04] INFO     scraper.trends_scraper — Coleta concluida: 8 termos processados.
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #wutheringwaves em 2026-03-20 00:51:32
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #wutheringwaves salvo (índice: 62 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #escoffier em 2026-03-20 00:51:37
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #escoffier salvo (índice: 31 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #nanatsuorigins em 2026-03-20 00:51:41
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #nanatsuorigins salvo (índice: 63 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #nanatsu em 2026-03-20 00:51:46
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #nanatsu salvo (índice: 39 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #rocketleague em 2026-03-20 00:51:51
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #rocketleague salvo (índice: 45 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #leagueoflegends em 2026-03-20 00:51:55
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #leagueoflegends salvo (índice: 66 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #genshinimpact em 2026-03-20 00:52:00
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #genshinimpact salvo (índice: 57 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     database.database_manager — Stats salvas para #gaming em 2026-03-20 00:52:04
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    ✓ #gaming salvo (índice: 90 | fonte: simulated)
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    Nenhum viral detectado nesta coleta.
+[2026-03-20 00:52:04] INFO     scheduler.job_runner — ✅ Pipeline concluído em 2026-03-20 00:52:04
+[2026-03-20 00:52:04] INFO     scheduler.job_runner —    Resultado: 8 salvos | 0 falhas | 0 virais
+[2026-03-20 00:52:04] INFO     scheduler.job_runner — =======================================================
